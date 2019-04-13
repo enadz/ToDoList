@@ -1,0 +1,66 @@
+body {
+    color: white;
+    font-size: 16px;
+    
+}
+
+#bg{
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.main {
+	position:relative;
+    top: 10;
+    bottom: 10;
+    margin-left: 30%;
+    background-color: rgba(0,0,0,0.3);
+    background-position: center;
+    width: 40%
+}
+
+h1 {
+	margin-top: 12rem;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	font-family:serif;
+}
+
+.lead {
+	font-size: 16px;
+	font-family:serif;
+}
+
+ul {
+	
+	margin-top: 2em;
+	list-style: none;
+	
+}
+
+li {
+	border-bottom: 1px solid white;
+	padding: 1rem 0 1rem 0;
+	margin: 0 1rem 0 1rem;
+    font-family: cursive;
+    font-size: 14;
+}
+
+.checkboxes {
+    float: right;
+    align-self:center;
+	width: 17px;
+	height: 17px;
+	background-color: darkslategray;
+	border: 1px solid darkslategray;
+	border-radius: 3px;
+}
+.btn{
+    background-color: darkgray;
+    color: whitesmoke;
+    border-color: dimgray;
+    border-radius: 5px;
+}
